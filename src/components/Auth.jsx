@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { authActions } from "../store/index";
+import { authActions } from "../store/auth";
 import classes from "./Auth.module.css";
 import UserProfile from "./UserProfile";
 import { useDispatch, useSelector } from "react-redux";
